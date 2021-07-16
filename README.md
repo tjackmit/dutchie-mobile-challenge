@@ -1,4 +1,4 @@
-# flutter_challenge
+# dutchie-mobile-challenge
 
 A new Flutter project.
 
