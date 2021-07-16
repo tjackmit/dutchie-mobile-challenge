@@ -1,16 +1,22 @@
-# dutchie-mobile-challenge
+# Dutchie Mobile Coding Challenge
 
-A new Flutter project.
+This challenge is composed of a small backend in the `/api` directory and the frontend flutter app in `flutter_challenge`. See below on how to get both running properly:
 
-## Getting Started
+### API
 
-This project is a starting point for a Flutter application.
+The api is a simple endpoint written in JavaScript to provide a small dataset using GraphQL. To run the api:
 
-A few resources to get you started if this is your first Flutter project:
+- Install [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
+- cd into `/api`
+- run the command `yarn && yarn start`
+- You should see "Listening on port 5000!" in the terminal and the GraphiQL UI should be accessible at http://localhost:5000/graphql.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Flutter App
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The Flutter App was created using Flutter 2.2.2 on channel stable. To get it running:
+
+- Open the `/flutter_challenge` directory using your preferred IDE (we recommend VS Code)
+- Select your device/emulator of choice (the app is optimized for mobile phones only)
+- Run the app using the "Run App" launch command in VS Code or by running `flutter run lib/app/main.dart`
+
+**Once you've got both the API & the App running, follow the instructions in-app!**
